@@ -1,3 +1,3 @@
-const API_URL = "http://3.89.61.219:8000"; // Update with backend URL
+const API_URL = "http://54.175.241.211:8000"; // Update with backend URL
 
 export { API_URL };
