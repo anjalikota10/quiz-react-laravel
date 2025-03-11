@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM php:8.2-fpm
 WORKDIR /var/www
 RUN apt update && apt install -y unzip curl libpng-dev \
     && docker-php-ext-install pdo pdo_mysql gd
